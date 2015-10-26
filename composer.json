@@ -1,0 +1,42 @@
+{
+  "name": "foolz/foolfuuka-theme-trefoil",
+  "type": "foolz-foolfuuka-theme",
+  "description": "Végérvényesen, valami elveszett.",
+  "version": "0.0.1",
+  "keywords": [
+    "theme",
+    "magyarchan",
+    "foolfuuka"
+  ],
+  "homepage": "http://magyarchan.net",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "sph",
+      "email": "sph@magyarchan.net"
+    },
+    {
+      "name": "kupi",
+      "email": "kupi@magyarchan.net"
+    }
+  ],
+  "support": {
+		"email": "sph@magyarchan.net",
+		"irc": "irc://irc.freenode.net/magyarchan"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "foolz/theme": "dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Foolz\\FoolFuuka\\Theme\\Trefoil\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Trefoil",
+    "styles": {
+      "default": "Trefoil"
+    }
+  }
+}
