@@ -1,14 +1,14 @@
 {
-  "name": "foolz/foolfuuka-theme-trefoil",
+  "name": "foolz/foolfuuka-theme-foolfuuka-trefoil",
   "type": "foolz-foolfuuka-theme",
   "description": "Végérvényesen, valami elveszett.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "theme",
     "magyarchan",
     "foolfuuka"
   ],
-  "homepage": "http://magyarchan.net",
+  "homepage": "https://magyarchan.net",
   "license": "Apache-2.0",
   "authors": [
     {
@@ -34,7 +34,7 @@
     }
   },
   "extra": {
-    "name": "Trefoil",
+    "name": "FoolFuuka",
     "styles": {
       "default": "Trefoil"
     }

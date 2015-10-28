@@ -179,7 +179,6 @@ class Chan extends \Foolz\FoolFuuka\View\View
                             <?php
                             $top_nav = array();
                             if ($radix) {
-                                $top_nav[] = array('href' => $this->getUri()->create(array($radix->shortname, 'ghost')), 'text' => _i('Ghost'));
                                 $top_nav[] = array('href' => $this->getUri()->create(array($radix->shortname, 'gallery')), 'text' => _i('Catalog'));
                             }
 
